@@ -17,7 +17,7 @@ header {
 h1 {
   font-family: 'Anton', sans-serif;
   color: floralwhite;
-  font-size: 15vw;
+  font-size: 10vw;
 }
 
 .fill {
@@ -30,6 +30,7 @@ h1 {
 .fill:nth-child(2) {
   background-image: url('nature.jpg');
   /* background-size: cover; */
+
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -42,7 +43,7 @@ h1 {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: stripes 2s infinite;
+  animation: stripes 2s ease infinite alternate;
 }
 
 @keyframes stripes {
